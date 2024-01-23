@@ -51,12 +51,24 @@
     .conteudo .logo {
         width: 140px;
         height: 80px;
+        margin-bottom: 15px;
     }
     .conteudo {
         top: 15%;
     }
     .conteudo .nome-personagem {
         font-size: 20px;
+    }
+    .botoes {
+      background-color: rgba(22, 24, 41, 0.3);
+      width:50px;
+      gap: 4px;
+    }
+    .botoes .botao img {
+      
+      max-width: 25px;
+      
+    
     }
     
 }
