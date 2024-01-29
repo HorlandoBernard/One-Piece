@@ -1,10 +1,10 @@
-@media (max-width: 846px) {
+@media (max-width: 740px) {
   main::after{
     background: linear-gradient(80deg, #000 10%, rgba(0, 0, 0, 0) 65%)no-repeat;
     width: 100vw;
   } 
   main .personagem .imagem {
-    height: 100%;
+    height: auto;
     
   } 
   .conteudo {
@@ -38,7 +38,7 @@
 }
 .botoes .botao img {
   
-  max-width: 28px;
+  max-width: 25px;
   
 
 }
@@ -52,17 +52,18 @@
     .conteudo .logo {
         width: 140px;
         height: 80px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .conteudo {
-        top: 15%;
+        top: -3%;
     }
     .conteudo .nome-personagem {
         font-size: 20px;
     }
     .botoes {
       background-color:transparent;
-      justify-content: end;
+      top: 11%;
+      justify-content:center;
       width:50px;
       gap: 4px;
     }
