@@ -11,7 +11,7 @@
     justify-content: flex-end;
     flex-direction: column;
     left: 0;
-    top: 1%;
+    top: 10%;
     max-width: 100vh;
     padding: 15px;
     } 
@@ -34,7 +34,7 @@
   background-color: rgba(22, 24, 41, 0.3);
   width:50px;
   gap: 2px;
-  top: -7%;
+  top: -8%;
   
 }
 .botoes .botao img {
