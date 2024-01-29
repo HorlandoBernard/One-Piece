@@ -4,7 +4,7 @@
     width: 100vw;
   } 
   main .personagem .imagem {
-    height: auto;
+    height: 100%;
     
   } 
   .conteudo {
@@ -16,29 +16,29 @@
     padding: 15px;
     } 
     .conteudo .logo {
-      width: 140px;
-      height: 80px;
-      margin-bottom: 15px;
+      width: 130px;
+      height: 70px;
+      margin-bottom: 2px;
   }
   
    
  .conteudo .nome-personagem {
-    font-size: 20px;
+    font-size: 15px;
  }
  .conteudo .descricao {
     max-width: 250px;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 13px;
  }
  .botoes {
   background-color: rgba(22, 24, 41, 0.3);
   width:50px;
-  gap: 5px;
+  gap: 2px;
   
 }
 .botoes .botao img {
   
-  max-width: 25px;
+  max-width: 22px;
   
 
 }
@@ -72,6 +72,5 @@
       
       max-width: 28px;
        }
-    
-      
+
 }
