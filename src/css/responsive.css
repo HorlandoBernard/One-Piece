@@ -43,7 +43,39 @@
   
 
 }
+
+
  
+}
+
+@media (max-width: 736px) {
+  main .personagem .imagem {
+      height: auto;
+  }
+  .conteudo .logo {
+      width: 140px;
+      height: 80px;
+      margin-bottom: 20px;
+  }
+  .conteudo {
+      top: -3%;
+  }
+  .conteudo .nome-personagem {
+      font-size: 20px;
+  }
+  .botoes {
+    background-color:transparent;
+    top:
+    justify-content:center;
+    width:50px;
+    gap: 4px;
+  }
+
+  .botoes .botao img {
+    
+    max-width: 28px;
+     }
+
 }
 
 @media (max-width: 425px) {
