@@ -41,40 +41,54 @@
   
   max-width: 24px;
   
+}
 
 }
 
-
- 
-}
-
-@media (max-width: 736px) {
+@media (max-width: 740px) {
+  main::after{
+    background: linear-gradient(80deg, #000 10%, rgba(0, 0, 0, 0) 65%)no-repeat;
+    width: 100vw;
+  } 
   main .personagem .imagem {
-      height: auto;
-  }
-  .conteudo .logo {
-      width: 140px;
-      height: 80px;
-      margin-bottom: 20px;
-  }
-  .conteudo {
-      top: -3%;
-  }
-  .conteudo .nome-personagem {
-      font-size: 20px;
-  }
-  .botoes {
-    background-color:transparent;
-    top:
-    justify-content:center;
-    width:50px;
-    gap: 4px;
-  }
-
-  .botoes .botao img {
+    height: 100%;
     
-    max-width: 28px;
-     }
+  } 
+  .conteudo {
+    justify-content: flex-end;
+    flex-direction: column;
+    left: 0;
+    top: 10%;
+    max-width: 100vh;
+    padding: 15px;
+    } 
+    .conteudo .logo {
+      width: 130px;
+      height: 70px;
+      margin-bottom: 2px;
+  }
+  
+   
+ .conteudo .nome-personagem {
+    font-size: 15px;
+ }
+ .conteudo .descricao {
+    max-width: 250px;
+    font-size: 13px;
+    line-height: 13px;
+ }
+ .botoes {
+  background-color: rgba(22, 24, 41, 0.3);
+  width:50px;
+  gap: 4px;
+  top: 0%;
+  
+}
+.botoes .botao img {
+  
+  max-width: 24px;
+  
+}
 
 }
 
